@@ -12,8 +12,8 @@ This is a simple e-commerce application that allows users to manage products, cr
 ## Getting started
 
 - Navigate to project directory
-- Run `./gradlew bootJar` to build the application and generate the jar file.
-- Run `docker-compose up --build` to start the application containers.
+- Run `docker-compose up` to create the docker image and start the application containers.
+- During the application startup the database migrations will be applied automatically.
 - The application will be available on port 8081.
 
 ### API Endpoints
