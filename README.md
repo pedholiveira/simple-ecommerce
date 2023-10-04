@@ -43,6 +43,14 @@ This is a simple e-commerce application that allows users to manage products, cr
 >
 > http://localhost:8081/swagger-ui/index.html
 
+## Dependencies
+
+This application relies on several key dependencies to function effectively, such as:
+
+- __Lombok__: [Lombok](https://projectlombok.org/) is used to reduce boilerplate code by automatically generating getters, setters, constructors, and other common Java code. It simplifies code development and improves readability.
+- __MapStruct__: [MapStruct](https://mapstruct.org/) is a code generation library that simplifies the mapping between different Java bean types. It is particularly useful for transforming data between DTOs (Data Transfer Objects) and entity objects.
+- __Flyway__: [Flyway](https://documentation.red-gate.com/fd/quickstart-how-flyway-works-184127223.html) is a database migration tool that simplifies database schema versioning and migration. It ensures that the database schema stays up-to-date with the application code, making it easier to manage database changes across different environments.
+- __Spring Data__: [Spring Data](https://spring.io/projects/spring-data) is a part of the Spring Framework that provides data access abstractions and simplifies database operations. It allows for easy interaction with databases using Java objects and provides support for various data sources.
 
 ## TODO
 
