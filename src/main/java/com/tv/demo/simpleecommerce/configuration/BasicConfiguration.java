@@ -11,7 +11,7 @@ public class BasicConfiguration {
     @Bean
     public OpenAPI openApiConfiguration() {
         return new OpenAPI().info(new Info()
-                .title("simple-ecommerce")
+                .title("Simple Ecommerce")
                 .version("1.0")
                 .description("Manages the simple e-commerce platform")
         );
