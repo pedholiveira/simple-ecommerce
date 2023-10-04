@@ -5,9 +5,7 @@
 This is a simple e-commerce application that allows users to manage products, create orders, and track order items. It provides a set of REST APIs for Product, Order, and Order Item entities, making it easy to build and extend an e-commerce platform.
 
 ## Pre-requisites
-- Java 17
 - Docker
-- Gradle
 
 ## Getting started
 
