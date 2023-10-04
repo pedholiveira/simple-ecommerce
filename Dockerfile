@@ -12,6 +12,7 @@ COPY src src
 # Install required package to avoid xargs error.
 RUN microdnf install findutils
 
+RUN chmod +x gradlew
 # Build application and generate the jar file
 RUN ./gradlew bootJar
 
