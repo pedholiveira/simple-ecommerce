@@ -10,11 +10,19 @@ This is a simple e-commerce application that allows users to manage products, cr
 ## Getting started
 
 - Navigate to project directory
-- Run `docker compose up` to create the docker image and start the application containers.
+- Run `docker compose up` to create the docker image, build and start the application containers.
 - During the application startup the database migrations will be applied automatically.
 - The application will be available on port 8081.
 
+### Unit tests
+
+To execute the unit tests, navigate to the project directory and run the commands below:
+
+- `./gradlew test`
+
 ### API Endpoints
+
+__API documentation page: http://localhost:8081/swagger-ui/index.html__
 
 #### Product APIs:
 - Create a new product: `POST: /api/products`
@@ -36,10 +44,6 @@ This is a simple e-commerce application that allows users to manage products, cr
 - Update order item information: `PUT: /api/order-items/{orderItemId}`
 - Delete an order item: `DELETE: /api/order-items/{orderItemId}`
 - List all order items for a specific order: `GET: /api/order-items`
-
-> More details and examples can be found on API documentation page:
->
-> http://localhost:8081/swagger-ui/index.html
 
 ## Dependencies
 
